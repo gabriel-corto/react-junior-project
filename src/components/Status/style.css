@@ -1,0 +1,29 @@
+.status {
+  display: flex;
+  gap: 0.35rem;
+  min-width: 78%;
+  padding: 0.25rem;
+}
+.status span {
+  display: flex;
+  color: var(--purple-500);
+  font-weight: bold;
+}
+.status strong {
+  background: var(--gray-600);
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6%;
+  height: fit-content;
+  color: var(--white);
+}
+@media (max-width: 768px) {
+  .status {
+    min-width: 68%;
+  }
+  .status strong {
+    width: 10%;
+  }
+}

@@ -1,0 +1,8 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: var(--green-500);
+  font-size: 2rem;
+  font-weight: 900;
+}
